@@ -1,818 +1,160 @@
-Fri Oct 25 14:23:33 EDT 2024
-Training with Optimizer: Adam and Loss Function: CrossEntropy
-Epoch [1/20]
-Train Loss: 0.4422 | Train Accuracy: 0.8692
-Val Loss: 0.2824 | Val Accuracy: 0.9147
-
-Epoch [2/20]
-Train Loss: 0.2127 | Train Accuracy: 0.9353
-Val Loss: 0.1637 | Val Accuracy: 0.9511
-
-Epoch [3/20]
-Train Loss: 0.1541 | Train Accuracy: 0.9533
-Val Loss: 0.1586 | Val Accuracy: 0.9506
-
-Epoch [4/20]
-Train Loss: 0.1237 | Train Accuracy: 0.9621
-Val Loss: 0.1205 | Val Accuracy: 0.9629
-
-Epoch [5/20]
-Train Loss: 0.1055 | Train Accuracy: 0.9674
-Val Loss: 0.1247 | Val Accuracy: 0.9601
-
-Epoch [6/20]
-Train Loss: 0.0901 | Train Accuracy: 0.9715
-Val Loss: 0.1177 | Val Accuracy: 0.9616
-
-Epoch [7/20]
-Train Loss: 0.0787 | Train Accuracy: 0.9752
-Val Loss: 0.1026 | Val Accuracy: 0.9696
-
-Epoch [8/20]
-Train Loss: 0.0743 | Train Accuracy: 0.9755
-Val Loss: 0.1229 | Val Accuracy: 0.9646
-
-Epoch [9/20]
-Train Loss: 0.0655 | Train Accuracy: 0.9786
-Val Loss: 0.1099 | Val Accuracy: 0.9676
-
-Epoch [10/20]
-Train Loss: 0.0585 | Train Accuracy: 0.9807
-Val Loss: 0.1008 | Val Accuracy: 0.9691
-
-Epoch [11/20]
-Train Loss: 0.0562 | Train Accuracy: 0.9808
-Val Loss: 0.0864 | Val Accuracy: 0.9736
-
-Epoch [12/20]
-Train Loss: 0.0494 | Train Accuracy: 0.9840
-Val Loss: 0.0900 | Val Accuracy: 0.9728
-
-Epoch [13/20]
-Train Loss: 0.0466 | Train Accuracy: 0.9848
-Val Loss: 0.0975 | Val Accuracy: 0.9715
-
-Epoch 00014: reducing learning rate of group 0 to 5.0000e-04.
-Epoch [14/20]
-Train Loss: 0.0429 | Train Accuracy: 0.9858
-Val Loss: 0.1271 | Val Accuracy: 0.9653
-
-Epoch [15/20]
-Train Loss: 0.0219 | Train Accuracy: 0.9932
-Val Loss: 0.0815 | Val Accuracy: 0.9776
-
-Epoch [16/20]
-Train Loss: 0.0184 | Train Accuracy: 0.9945
-Val Loss: 0.0816 | Val Accuracy: 0.9777
-
-Epoch [17/20]
-Train Loss: 0.0189 | Train Accuracy: 0.9938
-Val Loss: 0.0817 | Val Accuracy: 0.9784
-
-Epoch 00018: reducing learning rate of group 0 to 2.5000e-04.
-Epoch [18/20]
-Train Loss: 0.0170 | Train Accuracy: 0.9948
-Val Loss: 0.0988 | Val Accuracy: 0.9747
-
-Epoch [19/20]
-Train Loss: 0.0094 | Train Accuracy: 0.9975
-Val Loss: 0.0834 | Val Accuracy: 0.9776
-
-Epoch [20/20]
-Train Loss: 0.0078 | Train Accuracy: 0.9981
-Val Loss: 0.0811 | Val Accuracy: 0.9786
-
-Training with Optimizer: Adam and Loss Function: BinaryCrossEntropy
-Epoch [1/20]
-Train Loss: 0.0999 | Train Accuracy: 0.8390
-Val Loss: 0.0501 | Val Accuracy: 0.9201
-
-Epoch [2/20]
-Train Loss: 0.0440 | Train Accuracy: 0.9308
-Val Loss: 0.0379 | Val Accuracy: 0.9382
-
-Epoch [3/20]
-Train Loss: 0.0320 | Train Accuracy: 0.9499
-Val Loss: 0.0287 | Val Accuracy: 0.9523
-
-Epoch [4/20]
-Train Loss: 0.0257 | Train Accuracy: 0.9597
-Val Loss: 0.0274 | Val Accuracy: 0.9546
-
-Epoch [5/20]
-Train Loss: 0.0216 | Train Accuracy: 0.9658
-Val Loss: 0.0244 | Val Accuracy: 0.9613
-
-Epoch [6/20]
-Train Loss: 0.0190 | Train Accuracy: 0.9704
-Val Loss: 0.0208 | Val Accuracy: 0.9668
-
-Epoch [7/20]
-Train Loss: 0.0166 | Train Accuracy: 0.9745
-Val Loss: 0.0217 | Val Accuracy: 0.9655
-
-Epoch [8/20]
-Train Loss: 0.0151 | Train Accuracy: 0.9770
-Val Loss: 0.0215 | Val Accuracy: 0.9661
-
-Epoch [9/20]
-Train Loss: 0.0142 | Train Accuracy: 0.9784
-Val Loss: 0.0184 | Val Accuracy: 0.9705
-
-Epoch [10/20]
-Train Loss: 0.0127 | Train Accuracy: 0.9805
-Val Loss: 0.0194 | Val Accuracy: 0.9699
-
-Epoch [11/20]
-Train Loss: 0.0118 | Train Accuracy: 0.9820
-Val Loss: 0.0215 | Val Accuracy: 0.9670
-
-Epoch [12/20]
-Train Loss: 0.0110 | Train Accuracy: 0.9836
-Val Loss: 0.0173 | Val Accuracy: 0.9741
-
-Epoch [13/20]
-Train Loss: 0.0102 | Train Accuracy: 0.9846
-Val Loss: 0.0185 | Val Accuracy: 0.9731
-
-Epoch [14/20]
-Train Loss: 0.0095 | Train Accuracy: 0.9858
-Val Loss: 0.0178 | Val Accuracy: 0.9738
-
-Epoch 00015: reducing learning rate of group 0 to 5.0000e-04.
-Epoch [15/20]
-Train Loss: 0.0091 | Train Accuracy: 0.9864
-Val Loss: 0.0197 | Val Accuracy: 0.9704
-
-Epoch [16/20]
-Train Loss: 0.0059 | Train Accuracy: 0.9920
-Val Loss: 0.0173 | Val Accuracy: 0.9740
-
-Epoch [17/20]
-Train Loss: 0.0055 | Train Accuracy: 0.9926
-Val Loss: 0.0172 | Val Accuracy: 0.9740
-
-Epoch [18/20]
-Train Loss: 0.0051 | Train Accuracy: 0.9934
-Val Loss: 0.0188 | Val Accuracy: 0.9712
-
-Epoch [19/20]
-Train Loss: 0.0048 | Train Accuracy: 0.9937
-Val Loss: 0.0173 | Val Accuracy: 0.9742
-
-Epoch 00020: reducing learning rate of group 0 to 2.5000e-04.
-Epoch [20/20]
-Train Loss: 0.0045 | Train Accuracy: 0.9943
-Val Loss: 0.0183 | Val Accuracy: 0.9747
-
-Training with Optimizer: SGD and Loss Function: CrossEntropy
-Epoch [1/20]
-Train Loss: 2.2386 | Train Accuracy: 0.1979
-Val Loss: 2.1603 | Val Accuracy: 0.3048
-
-Epoch [2/20]
-Train Loss: 2.0341 | Train Accuracy: 0.4633
-Val Loss: 1.8763 | Val Accuracy: 0.5695
-
-Epoch [3/20]
-Train Loss: 1.6646 | Train Accuracy: 0.6445
-Val Loss: 1.4299 | Val Accuracy: 0.7156
-
-Epoch [4/20]
-Train Loss: 1.2266 | Train Accuracy: 0.7502
-Val Loss: 1.0400 | Val Accuracy: 0.7942
-
-Epoch [5/20]
-Train Loss: 0.9168 | Train Accuracy: 0.8029
-Val Loss: 0.8090 | Val Accuracy: 0.8228
-
-Epoch [6/20]
-Train Loss: 0.7380 | Train Accuracy: 0.8284
-Val Loss: 0.6739 | Val Accuracy: 0.8420
-
-Epoch [7/20]
-Train Loss: 0.6319 | Train Accuracy: 0.8431
-Val Loss: 0.5924 | Val Accuracy: 0.8532
-
-Epoch [8/20]
-Train Loss: 0.5638 | Train Accuracy: 0.8535
-Val Loss: 0.5369 | Val Accuracy: 0.8625
-
-Epoch [9/20]
-Train Loss: 0.5178 | Train Accuracy: 0.8619
-Val Loss: 0.4982 | Val Accuracy: 0.8686
-
-Epoch [10/20]
-Train Loss: 0.4839 | Train Accuracy: 0.8685
-Val Loss: 0.4685 | Val Accuracy: 0.8728
-
-Epoch [11/20]
-Train Loss: 0.4584 | Train Accuracy: 0.8733
-Val Loss: 0.4462 | Val Accuracy: 0.8785
-
-Epoch [12/20]
-Train Loss: 0.4383 | Train Accuracy: 0.8773
-Val Loss: 0.4282 | Val Accuracy: 0.8822
-
-Epoch [13/20]
-Train Loss: 0.4212 | Train Accuracy: 0.8817
-Val Loss: 0.4126 | Val Accuracy: 0.8857
-
-Epoch [14/20]
-Train Loss: 0.4078 | Train Accuracy: 0.8853
-Val Loss: 0.4011 | Val Accuracy: 0.8860
-
-Epoch [15/20]
-Train Loss: 0.3960 | Train Accuracy: 0.8882
-Val Loss: 0.3896 | Val Accuracy: 0.8914
-
-Epoch [16/20]
-Train Loss: 0.3863 | Train Accuracy: 0.8908
-Val Loss: 0.3810 | Val Accuracy: 0.8901
-
-Epoch [17/20]
-Train Loss: 0.3773 | Train Accuracy: 0.8929
-Val Loss: 0.3750 | Val Accuracy: 0.8906
-
-Epoch [18/20]
-Train Loss: 0.3695 | Train Accuracy: 0.8951
-Val Loss: 0.3660 | Val Accuracy: 0.8947
-
-Epoch [19/20]
-Train Loss: 0.3622 | Train Accuracy: 0.8968
-Val Loss: 0.3592 | Val Accuracy: 0.8957
-
-Epoch [20/20]
-Train Loss: 0.3557 | Train Accuracy: 0.8987
-Val Loss: 0.3520 | Val Accuracy: 0.8989
-
-Training with Optimizer: SGD and Loss Function: BinaryCrossEntropy
-Epoch [1/20]
-Train Loss: 0.5923 | Train Accuracy: 0.0905
-Val Loss: 0.4406 | Val Accuracy: 0.0986
-
-Epoch [2/20]
-Train Loss: 0.3585 | Train Accuracy: 0.1395
-Val Loss: 0.3276 | Val Accuracy: 0.1498
-
-Epoch [3/20]
-Train Loss: 0.3246 | Train Accuracy: 0.1271
-Val Loss: 0.3232 | Val Accuracy: 0.1227
-
-Epoch [4/20]
-Train Loss: 0.3223 | Train Accuracy: 0.1233
-Val Loss: 0.3216 | Val Accuracy: 0.1289
-
-Epoch [5/20]
-Train Loss: 0.3208 | Train Accuracy: 0.1351
-Val Loss: 0.3202 | Val Accuracy: 0.1427
-
-Epoch [6/20]
-Train Loss: 0.3194 | Train Accuracy: 0.1570
-Val Loss: 0.3187 | Val Accuracy: 0.1687
-
-Epoch [7/20]
-Train Loss: 0.3178 | Train Accuracy: 0.1883
-Val Loss: 0.3171 | Val Accuracy: 0.2041
-
-Epoch [8/20]
-Train Loss: 0.3162 | Train Accuracy: 0.2248
-Val Loss: 0.3154 | Val Accuracy: 0.2554
-
-Epoch [9/20]
-Train Loss: 0.3145 | Train Accuracy: 0.2729
-Val Loss: 0.3136 | Val Accuracy: 0.3005
-
-Epoch [10/20]
-Train Loss: 0.3126 | Train Accuracy: 0.3211
-Val Loss: 0.3116 | Val Accuracy: 0.3379
-
-Epoch [11/20]
-Train Loss: 0.3106 | Train Accuracy: 0.3573
-Val Loss: 0.3095 | Val Accuracy: 0.3818
-
-Epoch [12/20]
-Train Loss: 0.3085 | Train Accuracy: 0.3956
-Val Loss: 0.3074 | Val Accuracy: 0.4162
-
-Epoch [13/20]
-Train Loss: 0.3062 | Train Accuracy: 0.4291
-Val Loss: 0.3050 | Val Accuracy: 0.4409
-
-Epoch [14/20]
-Train Loss: 0.3039 | Train Accuracy: 0.4533
-Val Loss: 0.3026 | Val Accuracy: 0.4662
-
-Epoch [15/20]
-Train Loss: 0.3013 | Train Accuracy: 0.4739
-Val Loss: 0.2999 | Val Accuracy: 0.4920
-
-Epoch [16/20]
-Train Loss: 0.2986 | Train Accuracy: 0.5039
-Val Loss: 0.2971 | Val Accuracy: 0.5084
-
-Epoch [17/20]
-Train Loss: 0.2956 | Train Accuracy: 0.5131
-Val Loss: 0.2940 | Val Accuracy: 0.5281
-
-Epoch [18/20]
-Train Loss: 0.2924 | Train Accuracy: 0.5354
-Val Loss: 0.2906 | Val Accuracy: 0.5398
-
-Epoch [19/20]
-Train Loss: 0.2890 | Train Accuracy: 0.5477
-Val Loss: 0.2871 | Val Accuracy: 0.5516
-
-Epoch [20/20]
-Train Loss: 0.2854 | Train Accuracy: 0.5614
-Val Loss: 0.2834 | Val Accuracy: 0.5620
-
-Training with Optimizer: RMSprop and Loss Function: CrossEntropy
-Epoch [1/20]
-Train Loss: 0.4268 | Train Accuracy: 0.8670
-Val Loss: 0.3432 | Val Accuracy: 0.8909
-
-Epoch [2/20]
-Train Loss: 0.2070 | Train Accuracy: 0.9360
-Val Loss: 0.2260 | Val Accuracy: 0.9274
-
-Epoch [3/20]
-Train Loss: 0.1565 | Train Accuracy: 0.9517
-Val Loss: 0.1365 | Val Accuracy: 0.9568
-
-Epoch [4/20]
-Train Loss: 0.1272 | Train Accuracy: 0.9601
-Val Loss: 0.2150 | Val Accuracy: 0.9351
-
-Epoch [5/20]
-Train Loss: 0.1093 | Train Accuracy: 0.9654
-Val Loss: 0.1022 | Val Accuracy: 0.9683
-
-Epoch [6/20]
-Train Loss: 0.0961 | Train Accuracy: 0.9703
-Val Loss: 0.2644 | Val Accuracy: 0.9124
-
-Epoch [7/20]
-Train Loss: 0.0856 | Train Accuracy: 0.9736
-Val Loss: 0.1046 | Val Accuracy: 0.9676
-
-Epoch 00008: reducing learning rate of group 0 to 5.0000e-04.
-Epoch [8/20]
-Train Loss: 0.0793 | Train Accuracy: 0.9751
-Val Loss: 0.1707 | Val Accuracy: 0.9484
-
-Epoch [9/20]
-Train Loss: 0.0542 | Train Accuracy: 0.9831
-Val Loss: 0.0866 | Val Accuracy: 0.9728
-
-Epoch [10/20]
-Train Loss: 0.0483 | Train Accuracy: 0.9852
-Val Loss: 0.0968 | Val Accuracy: 0.9706
-
-Epoch [11/20]
-Train Loss: 0.0451 | Train Accuracy: 0.9857
-Val Loss: 0.0901 | Val Accuracy: 0.9723
-
-Epoch [12/20]
-Train Loss: 0.0423 | Train Accuracy: 0.9865
-Val Loss: 0.0829 | Val Accuracy: 0.9742
-
-Epoch [13/20]
-Train Loss: 0.0382 | Train Accuracy: 0.9880
-Val Loss: 0.0893 | Val Accuracy: 0.9749
-
-Epoch [14/20]
-Train Loss: 0.0363 | Train Accuracy: 0.9887
-Val Loss: 0.0919 | Val Accuracy: 0.9718
-
-Epoch 00015: reducing learning rate of group 0 to 2.5000e-04.
-Epoch [15/20]
-Train Loss: 0.0340 | Train Accuracy: 0.9890
-Val Loss: 0.0961 | Val Accuracy: 0.9713
-
-Epoch [16/20]
-Train Loss: 0.0237 | Train Accuracy: 0.9931
-Val Loss: 0.0826 | Val Accuracy: 0.9750
-
-Epoch [17/20]
-Train Loss: 0.0218 | Train Accuracy: 0.9941
-Val Loss: 0.1035 | Val Accuracy: 0.9704
-
-Epoch [18/20]
-Train Loss: 0.0202 | Train Accuracy: 0.9944
-Val Loss: 0.0846 | Val Accuracy: 0.9750
-
-Epoch 00019: reducing learning rate of group 0 to 1.2500e-04.
-Epoch [19/20]
-Train Loss: 0.0187 | Train Accuracy: 0.9948
-Val Loss: 0.0869 | Val Accuracy: 0.9753
-
-Epoch [20/20]
-Train Loss: 0.0150 | Train Accuracy: 0.9966
-Val Loss: 0.0832 | Val Accuracy: 0.9759
-
-Training with Optimizer: RMSprop and Loss Function: BinaryCrossEntropy
-Epoch [1/20]
-Train Loss: 0.0873 | Train Accuracy: 0.8556
-Val Loss: 0.0729 | Val Accuracy: 0.8791
-
-Epoch [2/20]
-Train Loss: 0.0413 | Train Accuracy: 0.9328
-Val Loss: 0.0352 | Val Accuracy: 0.9410
-
-Epoch [3/20]
-Train Loss: 0.0302 | Train Accuracy: 0.9518
-Val Loss: 0.0381 | Val Accuracy: 0.9390
-
-Epoch [4/20]
-Train Loss: 0.0241 | Train Accuracy: 0.9621
-Val Loss: 0.0237 | Val Accuracy: 0.9606
-
-Epoch [5/20]
-Train Loss: 0.0204 | Train Accuracy: 0.9674
-Val Loss: 0.0212 | Val Accuracy: 0.9640
-
-Epoch [6/20]
-Train Loss: 0.0180 | Train Accuracy: 0.9714
-Val Loss: 0.0237 | Val Accuracy: 0.9632
-
-Epoch [7/20]
-Train Loss: 0.0159 | Train Accuracy: 0.9757
-Val Loss: 0.0190 | Val Accuracy: 0.9705
-
-Epoch [8/20]
-Train Loss: 0.0144 | Train Accuracy: 0.9777
-Val Loss: 0.0360 | Val Accuracy: 0.9435
-
-Epoch [9/20]
-Train Loss: 0.0132 | Train Accuracy: 0.9797
-Val Loss: 0.0178 | Val Accuracy: 0.9713
-
-Epoch [10/20]
-Train Loss: 0.0121 | Train Accuracy: 0.9814
-Val Loss: 0.0367 | Val Accuracy: 0.9471
-
-Epoch [11/20]
-Train Loss: 0.0113 | Train Accuracy: 0.9828
-Val Loss: 0.0222 | Val Accuracy: 0.9658
-
-Epoch 00012: reducing learning rate of group 0 to 5.0000e-04.
-Epoch [12/20]
-Train Loss: 0.0103 | Train Accuracy: 0.9846
-Val Loss: 0.0186 | Val Accuracy: 0.9732
-
-Epoch [13/20]
-Train Loss: 0.0072 | Train Accuracy: 0.9900
-Val Loss: 0.0158 | Val Accuracy: 0.9767
-
-Epoch [14/20]
-Train Loss: 0.0065 | Train Accuracy: 0.9905
-Val Loss: 0.0169 | Val Accuracy: 0.9759
-
-Epoch [15/20]
-Train Loss: 0.0060 | Train Accuracy: 0.9918
-Val Loss: 0.0160 | Val Accuracy: 0.9760
-
-Epoch 00016: reducing learning rate of group 0 to 2.5000e-04.
-Epoch [16/20]
-Train Loss: 0.0056 | Train Accuracy: 0.9926
-Val Loss: 0.0189 | Val Accuracy: 0.9733
-
-Epoch [17/20]
-Train Loss: 0.0043 | Train Accuracy: 0.9949
-Val Loss: 0.0161 | Val Accuracy: 0.9778
-
-Epoch [18/20]
-Train Loss: 0.0040 | Train Accuracy: 0.9952
-Val Loss: 0.0159 | Val Accuracy: 0.9767
-
+(proj2) [suddapal@v027 src]$ python main.py 
+Downloading http://yann.lecun.com/exdb/mnist/train-images-idx3-ubyte.gz
+Failed to download (trying next):
+<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1147)>
+
+Downloading https://ossci-datasets.s3.amazonaws.com/mnist/train-images-idx3-ubyte.gz
+Downloading https://ossci-datasets.s3.amazonaws.com/mnist/train-images-idx3-ubyte.gz to ./data/MNIST/raw/train-images-idx3-ubyte.gz
+100.0%
+Extracting ./data/MNIST/raw/train-images-idx3-ubyte.gz to ./data/MNIST/raw
+
+Downloading http://yann.lecun.com/exdb/mnist/train-labels-idx1-ubyte.gz
+Failed to download (trying next):
+<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1147)>
+
+Downloading https://ossci-datasets.s3.amazonaws.com/mnist/train-labels-idx1-ubyte.gz
+Downloading https://ossci-datasets.s3.amazonaws.com/mnist/train-labels-idx1-ubyte.gz to ./data/MNIST/raw/train-labels-idx1-ubyte.gz
+100.0%
+Extracting ./data/MNIST/raw/train-labels-idx1-ubyte.gz to ./data/MNIST/raw
+
+Downloading http://yann.lecun.com/exdb/mnist/t10k-images-idx3-ubyte.gz
+Failed to download (trying next):
+<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1147)>
+
+Downloading https://ossci-datasets.s3.amazonaws.com/mnist/t10k-images-idx3-ubyte.gz
+Downloading https://ossci-datasets.s3.amazonaws.com/mnist/t10k-images-idx3-ubyte.gz to ./data/MNIST/raw/t10k-images-idx3-ubyte.gz
+100.0%
+Extracting ./data/MNIST/raw/t10k-images-idx3-ubyte.gz to ./data/MNIST/raw
+
+Downloading http://yann.lecun.com/exdb/mnist/t10k-labels-idx1-ubyte.gz
+Failed to download (trying next):
+<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1147)>
+
+Downloading https://ossci-datasets.s3.amazonaws.com/mnist/t10k-labels-idx1-ubyte.gz
+Downloading https://ossci-datasets.s3.amazonaws.com/mnist/t10k-labels-idx1-ubyte.gz to ./data/MNIST/raw/t10k-labels-idx1-ubyte.gz
+100.0%
+Extracting ./data/MNIST/raw/t10k-labels-idx1-ubyte.gz to ./data/MNIST/raw
+
+
+Starting training with Optimizer: Adam
+Epoch [1/20] - Train Loss: 0.4273, Train Acc: 87.50%, Val Loss: 0.2488, Val Acc: 92.51%
+Epoch [2/20] - Train Loss: 0.2140, Train Acc: 93.60%, Val Loss: 0.1616, Val Acc: 94.96%
+Epoch [3/20] - Train Loss: 0.1555, Train Acc: 95.27%, Val Loss: 0.1544, Val Acc: 95.30%
+Epoch [4/20] - Train Loss: 0.1264, Train Acc: 96.14%, Val Loss: 0.1183, Val Acc: 96.44%
+Epoch [5/20] - Train Loss: 0.1068, Train Acc: 96.70%, Val Loss: 0.1284, Val Acc: 96.09%
+Epoch [6/20] - Train Loss: 0.0749, Train Acc: 97.69%, Val Loss: 0.0931, Val Acc: 96.95%
+Epoch [7/20] - Train Loss: 0.0689, Train Acc: 97.90%, Val Loss: 0.0900, Val Acc: 97.07%
+Epoch [8/20] - Train Loss: 0.0616, Train Acc: 98.08%, Val Loss: 0.0939, Val Acc: 97.15%
+Epoch [9/20] - Train Loss: 0.0565, Train Acc: 98.26%, Val Loss: 0.0995, Val Acc: 97.02%
+Epoch [10/20] - Train Loss: 0.0519, Train Acc: 98.38%, Val Loss: 0.0882, Val Acc: 97.21%
+Epoch [11/20] - Train Loss: 0.0383, Train Acc: 98.84%, Val Loss: 0.0807, Val Acc: 97.52%
+Epoch [12/20] - Train Loss: 0.0360, Train Acc: 98.97%, Val Loss: 0.0797, Val Acc: 97.60%
+Epoch [13/20] - Train Loss: 0.0335, Train Acc: 99.03%, Val Loss: 0.0755, Val Acc: 97.67%
+Epoch [14/20] - Train Loss: 0.0312, Train Acc: 99.08%, Val Loss: 0.0784, Val Acc: 97.57%
+Epoch [15/20] - Train Loss: 0.0290, Train Acc: 99.21%, Val Loss: 0.0784, Val Acc: 97.56%
+Epoch [16/20] - Train Loss: 0.0226, Train Acc: 99.42%, Val Loss: 0.0765, Val Acc: 97.68%
+Epoch [17/20] - Train Loss: 0.0215, Train Acc: 99.48%, Val Loss: 0.0795, Val Acc: 97.55%
+Epoch [18/20] - Train Loss: 0.0205, Train Acc: 99.53%, Val Loss: 0.0751, Val Acc: 97.81%
+Epoch [19/20] - Train Loss: 0.0197, Train Acc: 99.53%, Val Loss: 0.0755, Val Acc: 97.78%
+Epoch [20/20] - Train Loss: 0.0186, Train Acc: 99.57%, Val Loss: 0.0766, Val Acc: 97.75%
+
+Testing with Optimizer: Adam
+Test Loss: 0.0784 | Test Accuracy: 97.79%
+
+Starting training with Optimizer: SGD
+Epoch [1/20] - Train Loss: 2.2333, Train Acc: 21.78%, Val Loss: 2.1438, Val Acc: 30.27%
+Epoch [2/20] - Train Loss: 2.0126, Train Acc: 43.22%, Val Loss: 1.8483, Val Acc: 59.82%
+Epoch [3/20] - Train Loss: 1.6377, Train Acc: 65.63%, Val Loss: 1.4096, Val Acc: 71.54%
+Epoch [4/20] - Train Loss: 1.2220, Train Acc: 74.71%, Val Loss: 1.0425, Val Acc: 77.20%
+Epoch [5/20] - Train Loss: 0.9289, Train Acc: 79.35%, Val Loss: 0.8148, Val Acc: 81.05%
+Epoch [6/20] - Train Loss: 0.7857, Train Acc: 81.61%, Val Loss: 0.7381, Val Acc: 82.20%
+Epoch [7/20] - Train Loss: 0.7181, Train Acc: 82.68%, Val Loss: 0.6777, Val Acc: 83.11%
+Epoch [8/20] - Train Loss: 0.6656, Train Acc: 83.52%, Val Loss: 0.6303, Val Acc: 84.18%
+Epoch [9/20] - Train Loss: 0.6234, Train Acc: 84.20%, Val Loss: 0.5924, Val Acc: 84.65%
+Epoch [10/20] - Train Loss: 0.5888, Train Acc: 84.76%, Val Loss: 0.5610, Val Acc: 85.35%
+Epoch [11/20] - Train Loss: 0.5665, Train Acc: 85.18%, Val Loss: 0.5471, Val Acc: 85.68%
+Epoch [12/20] - Train Loss: 0.5539, Train Acc: 85.46%, Val Loss: 0.5349, Val Acc: 85.87%
+Epoch [13/20] - Train Loss: 0.5421, Train Acc: 85.66%, Val Loss: 0.5232, Val Acc: 86.24%
+Epoch [14/20] - Train Loss: 0.5313, Train Acc: 85.85%, Val Loss: 0.5125, Val Acc: 86.30%
+Epoch [15/20] - Train Loss: 0.5210, Train Acc: 86.09%, Val Loss: 0.5028, Val Acc: 86.53%
+Epoch [16/20] - Train Loss: 0.5140, Train Acc: 86.21%, Val Loss: 0.4981, Val Acc: 86.59%
+Epoch [17/20] - Train Loss: 0.5095, Train Acc: 86.33%, Val Loss: 0.4936, Val Acc: 86.64%
+Epoch [18/20] - Train Loss: 0.5054, Train Acc: 86.41%, Val Loss: 0.4893, Val Acc: 86.68%
+Epoch [19/20] - Train Loss: 0.5009, Train Acc: 86.48%, Val Loss: 0.4851, Val Acc: 86.82%
+Epoch [20/20] - Train Loss: 0.4969, Train Acc: 86.53%, Val Loss: 0.4811, Val Acc: 86.89%
+
+Testing with Optimizer: SGD
+Test Loss: 0.4772 | Test Accuracy: 87.32%
+
+Starting training with Optimizer: RMSprop
+Epoch [1/20] - Train Loss: 0.4402, Train Acc: 86.45%, Val Loss: 0.2385, Val Acc: 92.88%
+Epoch [2/20] - Train Loss: 0.2188, Train Acc: 93.30%, Val Loss: 0.1709, Val Acc: 94.76%
+Epoch [3/20] - Train Loss: 0.1611, Train Acc: 95.09%, Val Loss: 0.1487, Val Acc: 95.38%
+Epoch [4/20] - Train Loss: 0.1326, Train Acc: 95.84%, Val Loss: 0.2117, Val Acc: 92.70%
+Epoch [5/20] - Train Loss: 0.1134, Train Acc: 96.44%, Val Loss: 0.2029, Val Acc: 93.67%
+Epoch [6/20] - Train Loss: 0.0817, Train Acc: 97.54%, Val Loss: 0.1009, Val Acc: 96.87%
+Epoch [7/20] - Train Loss: 0.0740, Train Acc: 97.74%, Val Loss: 0.0913, Val Acc: 97.13%
+Epoch [8/20] - Train Loss: 0.0671, Train Acc: 97.85%, Val Loss: 0.0892, Val Acc: 97.21%
+Epoch [9/20] - Train Loss: 0.0626, Train Acc: 98.00%, Val Loss: 0.0951, Val Acc: 97.08%
+Epoch [10/20] - Train Loss: 0.0578, Train Acc: 98.23%, Val Loss: 0.0878, Val Acc: 97.23%
+Epoch [11/20] - Train Loss: 0.0449, Train Acc: 98.62%, Val Loss: 0.0793, Val Acc: 97.51%
+Epoch [12/20] - Train Loss: 0.0422, Train Acc: 98.73%, Val Loss: 0.0841, Val Acc: 97.45%
+Epoch [13/20] - Train Loss: 0.0396, Train Acc: 98.78%, Val Loss: 0.0830, Val Acc: 97.42%
+Epoch [14/20] - Train Loss: 0.0378, Train Acc: 98.87%, Val Loss: 0.0849, Val Acc: 97.53%
+Epoch [15/20] - Train Loss: 0.0358, Train Acc: 98.91%, Val Loss: 0.0849, Val Acc: 97.54%
+Epoch [16/20] - Train Loss: 0.0306, Train Acc: 99.14%, Val Loss: 0.0816, Val Acc: 97.40%
 Early stopping triggered.
-Training with Optimizer: AdamW and Loss Function: CrossEntropy
-Epoch [1/20]
-Train Loss: 0.4194 | Train Accuracy: 0.8771
-Val Loss: 0.2601 | Val Accuracy: 0.9216
 
-Epoch [2/20]
-Train Loss: 0.2079 | Train Accuracy: 0.9373
-Val Loss: 0.1747 | Val Accuracy: 0.9458
+Testing with Optimizer: RMSprop
+Test Loss: 0.0877 | Test Accuracy: 97.31%
+
+Starting training with Optimizer: AdamW
+Epoch [1/20] - Train Loss: 0.4362, Train Acc: 86.83%, Val Loss: 0.2408, Val Acc: 92.63%
+Epoch [2/20] - Train Loss: 0.2145, Train Acc: 93.46%, Val Loss: 0.1803, Val Acc: 94.64%
+Epoch [3/20] - Train Loss: 0.1604, Train Acc: 95.07%, Val Loss: 0.1386, Val Acc: 95.69%
+Epoch [4/20] - Train Loss: 0.1284, Train Acc: 96.12%, Val Loss: 0.1189, Val Acc: 96.29%
+Epoch [5/20] - Train Loss: 0.1095, Train Acc: 96.56%, Val Loss: 0.1263, Val Acc: 95.83%
+Epoch [6/20] - Train Loss: 0.0756, Train Acc: 97.66%, Val Loss: 0.1009, Val Acc: 96.74%
+Epoch [7/20] - Train Loss: 0.0675, Train Acc: 97.94%, Val Loss: 0.0881, Val Acc: 97.10%
+Epoch [8/20] - Train Loss: 0.0617, Train Acc: 98.09%, Val Loss: 0.0967, Val Acc: 96.93%
+Epoch [9/20] - Train Loss: 0.0576, Train Acc: 98.26%, Val Loss: 0.0883, Val Acc: 97.05%
+Epoch [10/20] - Train Loss: 0.0525, Train Acc: 98.36%, Val Loss: 0.0867, Val Acc: 97.29%
+Epoch [11/20] - Train Loss: 0.0381, Train Acc: 98.92%, Val Loss: 0.0783, Val Acc: 97.61%
+Epoch [12/20] - Train Loss: 0.0354, Train Acc: 98.97%, Val Loss: 0.0798, Val Acc: 97.38%
+Epoch [13/20] - Train Loss: 0.0335, Train Acc: 99.03%, Val Loss: 0.0768, Val Acc: 97.50%
+Epoch [14/20] - Train Loss: 0.0314, Train Acc: 99.11%, Val Loss: 0.0756, Val Acc: 97.67%
+Epoch [15/20] - Train Loss: 0.0288, Train Acc: 99.19%, Val Loss: 0.0754, Val Acc: 97.64%
+Epoch [16/20] - Train Loss: 0.0227, Train Acc: 99.43%, Val Loss: 0.0739, Val Acc: 97.65%
+Epoch [17/20] - Train Loss: 0.0217, Train Acc: 99.44%, Val Loss: 0.0774, Val Acc: 97.40%
+Epoch [18/20] - Train Loss: 0.0210, Train Acc: 99.49%, Val Loss: 0.0746, Val Acc: 97.62%
+Epoch [19/20] - Train Loss: 0.0198, Train Acc: 99.52%, Val Loss: 0.0722, Val Acc: 97.78%
+Epoch [20/20] - Train Loss: 0.0191, Train Acc: 99.55%, Val Loss: 0.0758, Val Acc: 97.70%
+
+Testing with Optimizer: AdamW
+Test Loss: 0.0746 | Test Accuracy: 97.61%
+
+Starting training with Optimizer: AdaGrad
+Epoch [1/20] - Train Loss: 0.8277, Train Acc: 80.48%, Val Loss: 0.5043, Val Acc: 87.26%
+Epoch [2/20] - Train Loss: 0.4636, Train Acc: 87.79%, Val Loss: 0.4084, Val Acc: 88.92%
+Epoch [3/20] - Train Loss: 0.4050, Train Acc: 89.04%, Val Loss: 0.3714, Val Acc: 89.37%
+Epoch [4/20] - Train Loss: 0.3766, Train Acc: 89.55%, Val Loss: 0.3501, Val Acc: 90.03%
+Epoch [5/20] - Train Loss: 0.3583, Train Acc: 89.96%, Val Loss: 0.3367, Val Acc: 90.22%
+Epoch [6/20] - Train Loss: 0.3471, Train Acc: 90.23%, Val Loss: 0.3289, Val Acc: 90.54%
+Epoch [7/20] - Train Loss: 0.3415, Train Acc: 90.32%, Val Loss: 0.3252, Val Acc: 90.78%
+Epoch [8/20] - Train Loss: 0.3370, Train Acc: 90.42%, Val Loss: 0.3201, Val Acc: 90.75%
+Epoch [9/20] - Train Loss: 0.3328, Train Acc: 90.51%, Val Loss: 0.3167, Val Acc: 90.80%
+Epoch [10/20] - Train Loss: 0.3296, Train Acc: 90.63%, Val Loss: 0.3137, Val Acc: 91.04%
+Epoch [11/20] - Train Loss: 0.3265, Train Acc: 90.73%, Val Loss: 0.3118, Val Acc: 91.00%
+Epoch [12/20] - Train Loss: 0.3252, Train Acc: 90.75%, Val Loss: 0.3107, Val Acc: 91.18%
+Epoch [13/20] - Train Loss: 0.3237, Train Acc: 90.84%, Val Loss: 0.3096, Val Acc: 91.20%
+Epoch [14/20] - Train Loss: 0.3223, Train Acc: 90.87%, Val Loss: 0.3080, Val Acc: 91.19%
+Epoch [15/20] - Train Loss: 0.3215, Train Acc: 90.88%, Val Loss: 0.3071, Val Acc: 91.24%
+Epoch [16/20] - Train Loss: 0.3200, Train Acc: 90.92%, Val Loss: 0.3064, Val Acc: 91.22%
+Epoch [17/20] - Train Loss: 0.3198, Train Acc: 90.94%, Val Loss: 0.3059, Val Acc: 91.21%
+Epoch [18/20] - Train Loss: 0.3189, Train Acc: 90.97%, Val Loss: 0.3054, Val Acc: 91.30%
+Epoch [19/20] - Train Loss: 0.3184, Train Acc: 90.99%, Val Loss: 0.3050, Val Acc: 91.30%
+Epoch [20/20] - Train Loss: 0.3178, Train Acc: 91.00%, Val Loss: 0.3043, Val Acc: 91.34%
+
+Testing with Optimizer: AdaGrad
+Test Loss: 0.3037 | Test Accuracy: 91.43%
 
-Epoch [3/20]
-Train Loss: 0.1548 | Train Accuracy: 0.9530
-Val Loss: 0.1633 | Val Accuracy: 0.9479
-
-Epoch [4/20]
-Train Loss: 0.1241 | Train Accuracy: 0.9626
-Val Loss: 0.1210 | Val Accuracy: 0.9627
-
-Epoch [5/20]
-Train Loss: 0.1069 | Train Accuracy: 0.9673
-Val Loss: 0.1344 | Val Accuracy: 0.9593
-
-Epoch [6/20]
-Train Loss: 0.0948 | Train Accuracy: 0.9702
-Val Loss: 0.1785 | Val Accuracy: 0.9425
-
-Epoch [7/20]
-Train Loss: 0.0886 | Train Accuracy: 0.9719
-Val Loss: 0.1146 | Val Accuracy: 0.9643
-
-Epoch [8/20]
-Train Loss: 0.0764 | Train Accuracy: 0.9754
-Val Loss: 0.1229 | Val Accuracy: 0.9606
-
-Epoch [9/20]
-Train Loss: 0.0699 | Train Accuracy: 0.9772
-Val Loss: 0.1200 | Val Accuracy: 0.9619
-
-Epoch [10/20]
-Train Loss: 0.0642 | Train Accuracy: 0.9797
-Val Loss: 0.1109 | Val Accuracy: 0.9680
-
-Epoch [11/20]
-Train Loss: 0.0582 | Train Accuracy: 0.9807
-Val Loss: 0.1087 | Val Accuracy: 0.9662
-
-Epoch [12/20]
-Train Loss: 0.0530 | Train Accuracy: 0.9825
-Val Loss: 0.0983 | Val Accuracy: 0.9687
-
-Epoch [13/20]
-Train Loss: 0.0490 | Train Accuracy: 0.9842
-Val Loss: 0.1033 | Val Accuracy: 0.9706
-
-Epoch [14/20]
-Train Loss: 0.0453 | Train Accuracy: 0.9848
-Val Loss: 0.1075 | Val Accuracy: 0.9684
-
-Epoch 00015: reducing learning rate of group 0 to 5.0000e-04.
-Epoch [15/20]
-Train Loss: 0.0420 | Train Accuracy: 0.9863
-Val Loss: 0.1001 | Val Accuracy: 0.9714
-
-Epoch [16/20]
-Train Loss: 0.0218 | Train Accuracy: 0.9931
-Val Loss: 0.0859 | Val Accuracy: 0.9761
-
-Epoch [17/20]
-Train Loss: 0.0185 | Train Accuracy: 0.9943
-Val Loss: 0.0886 | Val Accuracy: 0.9740
-
-Epoch [18/20]
-Train Loss: 0.0181 | Train Accuracy: 0.9943
-Val Loss: 0.0933 | Val Accuracy: 0.9732
-
-Epoch 00019: reducing learning rate of group 0 to 2.5000e-04.
-Epoch [19/20]
-Train Loss: 0.0165 | Train Accuracy: 0.9951
-Val Loss: 0.0918 | Val Accuracy: 0.9737
-
-Epoch [20/20]
-Train Loss: 0.0093 | Train Accuracy: 0.9980
-Val Loss: 0.0823 | Val Accuracy: 0.9768
-
-Training with Optimizer: AdamW and Loss Function: BinaryCrossEntropy
-Epoch [1/20]
-Train Loss: 0.0985 | Train Accuracy: 0.8394
-Val Loss: 0.0535 | Val Accuracy: 0.9113
-
-Epoch [2/20]
-Train Loss: 0.0447 | Train Accuracy: 0.9306
-Val Loss: 0.0393 | Val Accuracy: 0.9366
-
-Epoch [3/20]
-Train Loss: 0.0341 | Train Accuracy: 0.9477
-Val Loss: 0.0311 | Val Accuracy: 0.9522
-
-Epoch [4/20]
-Train Loss: 0.0280 | Train Accuracy: 0.9564
-Val Loss: 0.0275 | Val Accuracy: 0.9569
-
-Epoch [5/20]
-Train Loss: 0.0236 | Train Accuracy: 0.9625
-Val Loss: 0.0249 | Val Accuracy: 0.9607
-
-Epoch [6/20]
-Train Loss: 0.0206 | Train Accuracy: 0.9686
-Val Loss: 0.0223 | Val Accuracy: 0.9643
-
-Epoch [7/20]
-Train Loss: 0.0181 | Train Accuracy: 0.9720
-Val Loss: 0.0227 | Val Accuracy: 0.9632
-
-Epoch [8/20]
-Train Loss: 0.0168 | Train Accuracy: 0.9742
-Val Loss: 0.0188 | Val Accuracy: 0.9689
-
-Epoch [9/20]
-Train Loss: 0.0151 | Train Accuracy: 0.9768
-Val Loss: 0.0189 | Val Accuracy: 0.9681
-
-Epoch [10/20]
-Train Loss: 0.0138 | Train Accuracy: 0.9785
-Val Loss: 0.0185 | Val Accuracy: 0.9718
-
-Epoch [11/20]
-Train Loss: 0.0126 | Train Accuracy: 0.9806
-Val Loss: 0.0174 | Val Accuracy: 0.9726
-
-Epoch [12/20]
-Train Loss: 0.0119 | Train Accuracy: 0.9821
-Val Loss: 0.0191 | Val Accuracy: 0.9690
-
-Epoch [13/20]
-Train Loss: 0.0111 | Train Accuracy: 0.9838
-Val Loss: 0.0197 | Val Accuracy: 0.9691
-
-Epoch 00014: reducing learning rate of group 0 to 5.0000e-04.
-Epoch [14/20]
-Train Loss: 0.0102 | Train Accuracy: 0.9848
-Val Loss: 0.0184 | Val Accuracy: 0.9724
-
-Epoch [15/20]
-Train Loss: 0.0071 | Train Accuracy: 0.9900
-Val Loss: 0.0166 | Val Accuracy: 0.9745
-
-Epoch [16/20]
-Train Loss: 0.0066 | Train Accuracy: 0.9911
-Val Loss: 0.0154 | Val Accuracy: 0.9760
-
-Epoch [17/20]
-Train Loss: 0.0063 | Train Accuracy: 0.9915
-Val Loss: 0.0169 | Val Accuracy: 0.9741
-
-Epoch [18/20]
-Train Loss: 0.0061 | Train Accuracy: 0.9920
-Val Loss: 0.0161 | Val Accuracy: 0.9761
-
-Epoch 00019: reducing learning rate of group 0 to 2.5000e-04.
-Epoch [19/20]
-Train Loss: 0.0057 | Train Accuracy: 0.9927
-Val Loss: 0.0162 | Val Accuracy: 0.9760
-
-Epoch [20/20]
-Train Loss: 0.0043 | Train Accuracy: 0.9953
-Val Loss: 0.0160 | Val Accuracy: 0.9762
-
-Training with Optimizer: AdaGrad and Loss Function: CrossEntropy
-Epoch [1/20]
-Train Loss: 0.8336 | Train Accuracy: 0.8034
-Val Loss: 0.5273 | Val Accuracy: 0.8679
-
-Epoch [2/20]
-Train Loss: 0.4696 | Train Accuracy: 0.8761
-Val Loss: 0.4295 | Val Accuracy: 0.8861
-
-Epoch [3/20]
-Train Loss: 0.4080 | Train Accuracy: 0.8893
-Val Loss: 0.3882 | Val Accuracy: 0.8918
-
-Epoch [4/20]
-Train Loss: 0.3787 | Train Accuracy: 0.8955
-Val Loss: 0.3674 | Val Accuracy: 0.8957
-
-Epoch [5/20]
-Train Loss: 0.3603 | Train Accuracy: 0.8988
-Val Loss: 0.3543 | Val Accuracy: 0.8977
-
-Epoch [6/20]
-Train Loss: 0.3474 | Train Accuracy: 0.9020
-Val Loss: 0.3414 | Val Accuracy: 0.9027
-
-Epoch [7/20]
-Train Loss: 0.3369 | Train Accuracy: 0.9038
-Val Loss: 0.3317 | Val Accuracy: 0.9044
-
-Epoch [8/20]
-Train Loss: 0.3287 | Train Accuracy: 0.9066
-Val Loss: 0.3241 | Val Accuracy: 0.9064
-
-Epoch [9/20]
-Train Loss: 0.3217 | Train Accuracy: 0.9082
-Val Loss: 0.3184 | Val Accuracy: 0.9082
-
-Epoch [10/20]
-Train Loss: 0.3156 | Train Accuracy: 0.9094
-Val Loss: 0.3135 | Val Accuracy: 0.9081
-
-Epoch [11/20]
-Train Loss: 0.3108 | Train Accuracy: 0.9108
-Val Loss: 0.3095 | Val Accuracy: 0.9089
-
-Epoch [12/20]
-Train Loss: 0.3057 | Train Accuracy: 0.9125
-Val Loss: 0.3056 | Val Accuracy: 0.9099
-
-Epoch [13/20]
-Train Loss: 0.3014 | Train Accuracy: 0.9128
-Val Loss: 0.3014 | Val Accuracy: 0.9117
-
-Epoch [14/20]
-Train Loss: 0.2975 | Train Accuracy: 0.9144
-Val Loss: 0.2973 | Val Accuracy: 0.9130
-
-Epoch [15/20]
-Train Loss: 0.2944 | Train Accuracy: 0.9152
-Val Loss: 0.2953 | Val Accuracy: 0.9129
-
-Epoch [16/20]
-Train Loss: 0.2907 | Train Accuracy: 0.9161
-Val Loss: 0.2915 | Val Accuracy: 0.9147
-
-Epoch [17/20]
-Train Loss: 0.2877 | Train Accuracy: 0.9173
-Val Loss: 0.2892 | Val Accuracy: 0.9164
-
-Epoch [18/20]
-Train Loss: 0.2853 | Train Accuracy: 0.9177
-Val Loss: 0.2872 | Val Accuracy: 0.9155
-
-Epoch [19/20]
-Train Loss: 0.2822 | Train Accuracy: 0.9185
-Val Loss: 0.2839 | Val Accuracy: 0.9167
-
-Epoch [20/20]
-Train Loss: 0.2800 | Train Accuracy: 0.9192
-Val Loss: 0.2819 | Val Accuracy: 0.9176
-
-Training with Optimizer: AdaGrad and Loss Function: BinaryCrossEntropy
-Epoch [1/20]
-Train Loss: 0.1922 | Train Accuracy: 0.7256
-Val Loss: 0.1328 | Val Accuracy: 0.8385
-
-Epoch [2/20]
-Train Loss: 0.1169 | Train Accuracy: 0.8520
-Val Loss: 0.1056 | Val Accuracy: 0.8635
-
-Epoch [3/20]
-Train Loss: 0.0992 | Train Accuracy: 0.8707
-Val Loss: 0.0940 | Val Accuracy: 0.8737
-
-Epoch [4/20]
-Train Loss: 0.0902 | Train Accuracy: 0.8800
-Val Loss: 0.0869 | Val Accuracy: 0.8791
-
-Epoch [5/20]
-Train Loss: 0.0841 | Train Accuracy: 0.8857
-Val Loss: 0.0817 | Val Accuracy: 0.8862
-
-Epoch [6/20]
-Train Loss: 0.0797 | Train Accuracy: 0.8911
-Val Loss: 0.0781 | Val Accuracy: 0.8906
-
-Epoch [7/20]
-Train Loss: 0.0765 | Train Accuracy: 0.8937
-Val Loss: 0.0752 | Val Accuracy: 0.8919
-
-Epoch [8/20]
-Train Loss: 0.0739 | Train Accuracy: 0.8966
-Val Loss: 0.0729 | Val Accuracy: 0.8954
-
-Epoch [9/20]
-Train Loss: 0.0717 | Train Accuracy: 0.8989
-Val Loss: 0.0708 | Val Accuracy: 0.8965
-
-Epoch [10/20]
-Train Loss: 0.0698 | Train Accuracy: 0.9014
-Val Loss: 0.0690 | Val Accuracy: 0.8978
-
-Epoch [11/20]
-Train Loss: 0.0683 | Train Accuracy: 0.9032
-Val Loss: 0.0676 | Val Accuracy: 0.8995
-
-Epoch [12/20]
-Train Loss: 0.0669 | Train Accuracy: 0.9040
-Val Loss: 0.0663 | Val Accuracy: 0.9014
-
-Epoch [13/20]
-Train Loss: 0.0656 | Train Accuracy: 0.9052
-Val Loss: 0.0654 | Val Accuracy: 0.9010
-
-Epoch [14/20]
-Train Loss: 0.0645 | Train Accuracy: 0.9061
-Val Loss: 0.0642 | Val Accuracy: 0.9024
-
-Epoch [15/20]
-Train Loss: 0.0635 | Train Accuracy: 0.9074
-Val Loss: 0.0633 | Val Accuracy: 0.9032
-
-Epoch [16/20]
-Train Loss: 0.0625 | Train Accuracy: 0.9083
-Val Loss: 0.0624 | Val Accuracy: 0.9045
-
-Epoch [17/20]
-Train Loss: 0.0617 | Train Accuracy: 0.9093
-Val Loss: 0.0617 | Val Accuracy: 0.9062
-
-Epoch [18/20]
-Train Loss: 0.0609 | Train Accuracy: 0.9103
-Val Loss: 0.0608 | Val Accuracy: 0.9080
-
-Epoch [19/20]
-Train Loss: 0.0601 | Train Accuracy: 0.9111
-Val Loss: 0.0602 | Val Accuracy: 0.9089
-
-Epoch [20/20]
-Train Loss: 0.0594 | Train Accuracy: 0.9127
-Val Loss: 0.0595 | Val Accuracy: 0.9096
-
-Best combination: Optimizer: Adam, Loss Function: CrossEntropy with Validation Accuracy: 0.9786

@@ -1,1 +1,3 @@
-data
+src/data
+*swp*
+src/*swp*
