@@ -158,3 +158,25 @@ Epoch [20/20] - Train Loss: 0.3178, Train Acc: 91.00%, Val Loss: 0.3043, Val Acc
 Testing with Optimizer: AdaGrad
 Test Loss: 0.3037 | Test Accuracy: 91.43%
 
+
+
+
+
+(proj2) [suddapal@v009 src]$ python get_model_pic.py 
+----------------------------------------------------------------
+        Layer (type)               Output Shape         Param #
+================================================================
+            Linear-1                  [-1, 128]         100,480
+            Linear-2                   [-1, 64]           8,256
+            Linear-3                   [-1, 10]             650
+================================================================
+Total params: 109,386
+Trainable params: 109,386
+Non-trainable params: 0
+----------------------------------------------------------------
+Input size (MB): 0.00
+Forward/backward pass size (MB): 0.00
+Params size (MB): 0.42
+Estimated Total Size (MB): 0.42
+----------------------------------------------------------------
+
