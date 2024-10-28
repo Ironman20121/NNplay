@@ -1,3 +1,4 @@
 src/data
-*swp*
-src/*swp*
+src/.*sw*
+.*sw*
+.*
