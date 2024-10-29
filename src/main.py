@@ -12,6 +12,8 @@ from sklearn.metrics import confusion_matrix
 import torch.nn.functional as F
 import numpy as np
 import os
+from torch.optim.lr_scheduler import ReduceLROnPlateau
+
 
 # GPU check
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -29,19 +31,17 @@ optimizers = {
 class SimpleANN(nn.Module):
     def __init__(self, output_dim=10):
         super(SimpleANN, self).__init__()
-        self.fc1 = nn.Linear(28 * 28, 128)
-        self.fc2 = nn.Linear(128, 64)
-        self.fc3 = nn.Linear(64, output_dim)
+        self.fc1 = nn.Linear(28 * 28, 64)
+        self.fc2 = nn.Linear(64, 32)
+        self.dropout2 = nn.Dropout(0.25)
+        self.fc3 = nn.Linear(32, output_dim)
 
     def forward(self, x):
         x = x.view(-1, 28 * 28)
         x = torch.relu(self.fc1(x))
         x = torch.relu(self.fc2(x))
+        x = self.dropout2(x)
         return self.fc3(x)
-
-# Convert labels to one-hot encoding for BinaryCrossEntropyLoss
-def to_one_hot(labels, num_classes=10):
-    return F.one_hot(labels, num_classes).float()
 
 # Training and validation process
 def train_and_validate(model, optimizer, criterion, train_loader, val_loader, epochs, lr_scheduler, patience, folder_name):
@@ -80,7 +80,7 @@ def train_and_validate(model, optimizer, criterion, train_loader, val_loader, ep
 
         # Save learning rate and update scheduler
         learning_rates.append(optimizer.param_groups[0]['lr'])
-        lr_scheduler.step()
+        lr_scheduler.step(val_loss)
 
         print(f"Epoch [{epoch+1}/{epochs}] - Train Loss: {train_loss:.4f}, Train Acc: {train_accuracy:.2f}%, "
               f"Val Loss: {val_loss:.4f}, Val Acc: {val_accuracy:.2f}%")
@@ -101,15 +101,15 @@ def train_and_validate(model, optimizer, criterion, train_loader, val_loader, ep
     plot_metrics(train_losses, val_losses, 'Loss', folder_name)
     plot_metrics(train_accs, val_accs, 'Accuracy', folder_name)
     plot_learning_rate(learning_rates, folder_name)
-    plot_confusion_matrix(model, val_loader, folder_name)
+    #plot_confusion_matrix(model, val_loader, folder_name)
 
-def test(model, criterion, data_loader, is_test):
+def test(model, criterion, data_loader, is_test:bool,folder_name=""):
     """Validation or testing function."""
     model.eval()
     loss = 0.0
     correct = 0
     total = 0
-
+    predicted_labels = []
     with torch.no_grad():
         for images, labels in data_loader:
             images, labels = images.to(device), labels.to(device)
@@ -118,16 +118,34 @@ def test(model, criterion, data_loader, is_test):
             loss += batch_loss.item()
 
             _, predicted = torch.max(outputs.data, 1)
+            predicted_labels.extend(predicted.cpu().numpy())
             total += labels.size(0)
             correct += (predicted == labels).sum().item()
 
     avg_loss = loss / len(data_loader)
     accuracy = 100 * correct / total
-
     if is_test:
         print(f"Test Loss: {avg_loss:.4f} | Test Accuracy: {accuracy:.2f}%")
+        plot_confusion_matrix(model, data_loader, folder_name)
+        plot_images(data_loader,25,folder_name,"test",predicted_labels)
     return avg_loss, accuracy
 
+def plot_images(data_loader, num_images, folder_name,load_type,predict_labels=None):
+    images,labels = next(iter(data_loader))
+    plt.figure(figsize=(10,10))
+    for i in range(num_images):
+        plt.subplot(5, 5, i + 1)  # Create a 5x5 grid
+        plt.imshow(images[i].numpy().squeeze(), cmap='gray')  # Convert to numpy and squeeze to remove channel dimension
+        if predict_labels is not None:
+            plt.title(f'(T,P)={labels[i].item(),predict_labels[i].item()}')
+        else:plt.title(f'{labels[i].item()}')
+        plt.axis('off')  # Turn off axis
+
+
+    # Save the plot
+    plt.tight_layout()
+    plt.savefig(os.path.join(folder_name, f'{load_type}_samples.png'))
+    plt.close()  # Close the plot to free memory
 def plot_metrics(train_values, val_values, metric_name, folder_name):
     """Plot and save training and validation metrics (loss or accuracy)."""
     plt.figure(figsize=(10, 5))
@@ -135,6 +153,7 @@ def plot_metrics(train_values, val_values, metric_name, folder_name):
     plt.plot(val_values, label='Validation')
     plt.xlabel('Epochs')
     plt.ylabel(metric_name)
+    plt.xticks(range(1,21))# 20 epochs
     plt.legend()
     plt.title(f'Training and Validation {metric_name}')
     plt.savefig(os.path.join(folder_name, f"{metric_name}.png"))
@@ -146,6 +165,7 @@ def plot_learning_rate(learning_rates, folder_name):
     plt.plot(learning_rates, label='Learning Rate')
     plt.xlabel('Epochs')
     plt.ylabel('Learning Rate')
+    plt.xticks(range(1,21))# 20 epocs
     plt.title('Learning Rate Schedule')
     plt.legend()
     plt.savefig(os.path.join(folder_name, "Learning_Rate.png"))
@@ -193,7 +213,7 @@ def main():
     batch_size = 64
     epochs = 20
     patience = 5
-    initial_learning_rate = 0.001
+    initial_learning_rate = 0.01
 
     train_loader, val_loader, test_loader = data_preprocessing(batch_size)
 
@@ -202,16 +222,20 @@ def main():
         os.makedirs(folder_name, exist_ok=True)
 
         model = SimpleANN().to(device)
+        print(model)
         optimizer = opt_func(model.parameters(), lr=initial_learning_rate)
         criterion = nn.CrossEntropyLoss()
-        lr_scheduler = optim.lr_scheduler.StepLR(optimizer, step_size=5, gamma=0.5)
+        
+        #updates based on validation loss
+        lr_scheduler = ReduceLROnPlateau(optimizer, mode='min', patience=1, factor=0.5, verbose=True)
+
 
         print(f"\nStarting training with Optimizer: {opt_name}")
         train_and_validate(model, optimizer, criterion, train_loader, val_loader, epochs, lr_scheduler, patience, folder_name)
 
         print(f"\nTesting with Optimizer: {opt_name}")
         model.load_state_dict(torch.load(os.path.join(folder_name, 'best_model.pth')))
-        test(model, criterion, test_loader, is_test=True)
+        test(model, criterion, test_loader, is_test=True,folder_name=folder_name)
 
 if __name__ == "__main__":
     main()
